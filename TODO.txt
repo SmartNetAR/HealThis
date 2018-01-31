@@ -1,0 +1,27 @@
+2do y 3er enemigo
+edge coollider
+organo sube y baja
+background loop
+musica
+sonidos
+particulas
+destruccion de enemigos
+daño que recibe el personaje
+escudo con cooldown
+camera shake
+
+MODIFICADO FEDE
+------------------------
+
+Prefabs: Enemy1, Enemy2
+Speed del SO del enemy2
+Enemies behaviours
+
+         Vector3 diff = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+         diff.Normalize();
+ 
+         float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+         transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
+
+
+

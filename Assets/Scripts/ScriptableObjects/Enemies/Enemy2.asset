@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0231459ff7a24c34e85bf12e00e9d004, type: 3}
+  m_Name: Enemy2
+  m_EditorClassIdentifier: 
+  name: Enemy 2
+  description: Turret Enemy
+  artwork: {fileID: 21300000, guid: b75800fb8fc982740903a62a46b664c1, type: 3}
+  maxHealth: 150
+  curHealth: 150
+  speed: 5
+  points: 20
+  alertRange: 0
+  skills:
+  - {fileID: 11400000, guid: f846498abf1584740a9f2bbf06854782, type: 2}
+  - {fileID: 11400000, guid: d3a09ea6680614c4d8a811a58434df57, type: 2}
+  - {fileID: 11400000, guid: 35985cc6cf555264facd6b07a89d2148, type: 2}
